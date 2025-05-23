@@ -16,11 +16,11 @@
             <input type="tel" class="form-control" placeholder="Số điện thoại">
         </div>
         <div class="mb-2 text-center">
-            <textarea name=""cols="78" rows="5" id="" placeholder="Ghi chú"></textarea>
+            <textarea name=""cols="67" rows="5" id="" placeholder="Ghi chú"></textarea>
         </div>
     </div>
 
     <div class="text-center mb-2">
-        <button type="button" class="btn btn-secondary">Subbmit</button>
+        <a href=""><button type="button" class="btn btn-secondary">Subbmit</button></a>
     </div>
 </div>

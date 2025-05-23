@@ -10,8 +10,22 @@ body {
   cursor: pointer;
 }
 
+.color-cart {
+  color: #000;
+}
+
 .icon:hover {
   background-color: #d7dbc6;
+}
+
+.color-cart:hover {
+  color: rgb(255, 42, 42);
+
+}
+
+.icon-cart1:hover {
+  color: rgb(255, 42, 42);
+
 }
 
 .cart-count {
@@ -25,9 +39,34 @@ body {
   font-size: 12px;
 }
 
-.cart {
-  position: relative;
+.custom-full-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  /* Nền đen mờ */
+  z-index: 1040;
+  /* nhỏ hơn offcanvas (1045) */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
 }
+
+.custom-full-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.offcanvas {
+  z-index: 1045 !important;
+  background: #fff !important;
+  /* Nền trắng rõ ràng */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  opacity: 1 !important;
+}
+
 
 
 .all_product h1 {
@@ -240,13 +279,26 @@ content h2 {
   background-color: red;
   width: 100%;
   height: 100%;
+  font-size: 12px;
 }
+
+/* .discount {
+  background-color: #ff5722;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 12px;
+} */
 
 .discount1 {
   background-color: white;
   width: 100%;
   height: 100%;
   padding: 15px;
+}
+
+.border {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .discount1 h5 {
@@ -273,7 +325,7 @@ content h2 {
   padding: 10px;
   border: 2px solid rgb(250, 145, 16);
   border-radius: 40px;
-  width: 40%;
+  width: 50%;
 }
 
 .item_2 {
@@ -402,7 +454,7 @@ content h2 {
   border: 2px solid rgb(250, 145, 16);
 
   border-radius: 40px;
-  width: 75%;
+  width: 85%;
 }
 
 .item_6 {
@@ -916,6 +968,8 @@ body {
 }
 
 /* contatct */
+
+
 .contact-background {
   background-color: #FCFCF7;
   margin-top: 100px;
@@ -931,6 +985,13 @@ body {
   width: 50%;
   margin: 0 auto;
 }
+
+.form-control1 {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 
 /* dich vu */
 
@@ -960,11 +1021,12 @@ body {
   margin-left: 11px;
 
 }
+
 .sticky {
   position: sticky;
-  top: 90px; 
-  z-index: 1000;
+  top: 90px;
 }
+
 .price-now {
   color: #d62828;
   font-size: 32px;
@@ -1005,4 +1067,126 @@ body {
 .btn-submit:hover {
   background-color: #f45d01;
   color: white;
+}
+
+.text-product h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.text-itemt {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.product_massage img {
+  border-radius: 10px;
+}
+
+.text-product1 h1 {
+  font-size: 40px;
+  margin-top: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.my-button {
+
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border: none;
+}
+
+.my-button:hover {
+  color: orange;
+
+}
+
+.price {
+  margin-top: 8px;
+}
+
+.current {
+  color: #e91e63;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discount2 {
+  background-color: #ff5722;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.spa-name {
+  color: #888;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+.btn-light.text-danger {
+    transition: background 0.2s, color 0.2s;
+}
+.btn-light.text-danger:hover {
+    background: #f7d6d6;
+    color: #dc3545;
+}
+.input-group-sm .btn {
+    min-width: 32px;
+    font-size: 1.1rem;
+    padding: 0.25rem 0.5rem;
+}
+.input-group-sm .form-control2 {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    height: 36px;
+}
+
+.form-control2{
+  border: none;
+}
+.total {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.checkout-btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-decoration:none;
+}
+.cart-footer {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* login */
+
+.login{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top: 60px;
+}
+.bg_login{
+  background-color: white;
+  border-radius: 10px;
+
+  
 }

@@ -18,3 +18,9 @@ Route::get('/contact', function () {
 Route::get('/service', function () {
     return view('front.pages.service');
 });
+Route::get('/login', function () {
+    return view('front.pages.login');
+});
+Route::get('/register', function () {
+    return view('front.pages.register');
+});

@@ -128,11 +128,29 @@
         <div class="row">
 
             <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0">
+                <div class="row g-0 border">
                     <div class="col-sm-12 col-md-12 col-lg-2">
                         <div class="discount mx-auto w-100 h-100">
                             <div class="text-center w-100 h-100 d-flex align-items-center">
-                                <h5> Giảm 50%</h5>
+                                <p> Giảm 50%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-10">
+                        <div class="discount1 ">
+                            <h5> Mã: EGA50THANG10</h5>
+                            <p> Giảm 15% cho đơn hàng giá trị tối hiểu 500k.<br> Mã giảm tối đa 250k </p>
+                            <h5> HSD: 25/11/2005</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
+                <div class="row g-0 border">
+                    <div class="col-sm-12 col-md-12 col-lg-2">
+                        <div class="bg-primary mx-auto w-100 h-100">
+                            <div class="text-center w-100 h-100 d-flex align-items-center ">
+                                <p> Giảm 50%</p>
                             </div>
                         </div>
                     </div>
@@ -146,29 +164,11 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0">
+                <div class="row g-0 border">
                     <div class="col-sm-12 col-md-12 col-lg-2">
-                        <div class="discount_1 mx-auto ">
-                            <div class="ddd w-100 h-100 d-flex align-items-center">
-                                <h5> Giảm 50%</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-10">
-                        <div class="discount1">
-                            <h5> Mã: EGA50THANG10</h5>
-                            <p> Giảm 15% cho đơn hàng giá trị tối hiểu 500k.<br> Mã giảm tối đa 250k </p>
-                            <h5> HSD: 25/11/2005</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0">
-                    <div class="col-sm-12 col-md-12 col-lg-2">
-                        <div class="discount_2 mx-auto ">
-                            <div class="ddd w-100 h-100 d-flex align-items-center">
-                                <h5> Giảm 50%</h5>
+                        <div class="bg-warning mx-auto w-100 h-100" >
+                            <div class="text-center w-100 h-100 d-flex align-items-center">
+                                <p> Giảm 50%</p>
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                     <div class="img_2">
                         <img src="/assets/image/anh7.jpeg" alt ="" class="w-100">
                         <div class="mt-3 ">
-                            <h4>[ Combo Xịt-Xã-Dưỡng cho nam ] META SOFT</h4>
+                            <h4>[ Xịt-Xã-Dưỡng cho nam ] META SOFT</h4>
                         </div>
                         <div class="item_3">
                             <h4> 2.000.000000đ</h4>
@@ -612,7 +612,7 @@
                             <div class="col-sm-12 col-md-12 col-lg-6">
                                 <div class="img_1  mx-5 p-5">
                                     <h5>Gói gội đầu </h5>
-                                    <h1 class="text-orange">Gội đầu dưỡng sinh cung đình</h1>
+                                    <h1 class="text-orange">Gội đầu dưỡng sinh </h1>
                                     <p>- Gội đầu thư giãn với 15 bước chuyên nghiệp</p>
                                     <p>- Sử dụng dầu gội thảo dược cung đình và chăm sóc da mặt</p>
                                     <p>- Bao gồm ăn nhẹ vàovào cuối liệu trình</p>

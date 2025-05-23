@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beauty</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,8 +24,8 @@
     @include('front.layout.header')
     @yield('content')
     @include('front.layout.footer')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -108,27 +108,92 @@
         });
     </script>
     <script>
-function toggleFaq(btn) {
-    const answer = btn.nextElementSibling;
-    const arrow = btn.querySelector('.faq-arrow');
-    const isOpen = answer.style.display === 'block';
-    answer.style.display = isOpen ? 'none' : 'block';
-    arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(90deg)';
-}
-</script>
-<script>
-function toggleMoreContent() {
-    var moreContent = document.getElementById('more-content');
-    var btn = document.getElementById('btn-xem-them');
-    if (moreContent.style.display === 'none' || moreContent.style.display === '') {
-        moreContent.style.display = 'block';
-        btn.innerText = 'Thu gọn';
-    } else {
-        moreContent.style.display = 'none';
-        btn.innerText = 'Xem thêm';
-    }
-}
-</script>
+        function toggleFaq(btn) {
+            const answer = btn.nextElementSibling;
+            const arrow = btn.querySelector('.faq-arrow');
+            const isOpen = answer.style.display === 'block';
+            answer.style.display = isOpen ? 'none' : 'block';
+            arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(90deg)';
+        }
+    </script>
+    <script>
+        function toggleMoreContent() {
+            var moreContent = document.getElementById('more-content');
+            var btn = document.getElementById('btn-xem-them');
+            if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+                moreContent.style.display = 'block';
+                btn.innerText = 'Thu gọn';
+            } else {
+                moreContent.style.display = 'none';
+                btn.innerText = 'Xem thêm';
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var offcanvas = document.getElementById('offcanvasRight');
+            var bsOffcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvas);
+
+            offcanvas.addEventListener('show.bs.offcanvas', function() {
+                let overlay = document.querySelector('.custom-full-overlay');
+                if (!overlay) {
+                    overlay = document.createElement('div');
+                    overlay.className = 'custom-full-overlay';
+                    overlay.onclick = function() {
+                        bsOffcanvas.hide();
+                    };
+                    document.body.appendChild(overlay);
+                    setTimeout(() => overlay.classList.add('show'), 10);
+                } else {
+                    overlay.classList.add('show');
+                }
+            });
+
+            // Khi offcanvas bắt đầu đóng, giữ overlay lại 0.2s rồi mới ẩn
+            offcanvas.addEventListener('hide.bs.offcanvas', function() {
+                var overlay = document.querySelector('.custom-full-overlay');
+                if (overlay) {
+                    overlay.classList.remove('show');
+                    setTimeout(() => {
+                        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+                    }, 200); // overlay biến mất sau khi offcanvas đã thu lại một chút
+                }
+            });
+        });
+    </script>
+    <script>
+        // Xử lý nút cộng/trừ số lượng trong giỏ hàng
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.input-group').forEach(function(group) {
+                const minusBtn = group.querySelector('button[title="Giảm"]');
+                const plusBtn = group.querySelector('button[title="Tăng"]');
+                const input = group.querySelector('input[type="text"]');
+
+                if (minusBtn && plusBtn && input) {
+                    minusBtn.addEventListener('click', function() {
+                        let value = parseInt(input.value) || 1;
+                        if (value > 1) input.value = value - 1;
+                    });
+                    plusBtn.addEventListener('click', function() {
+                        let value = parseInt(input.value) || 1;
+                        input.value = value + 1;
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Xử lý nút xóa sản phẩm trong giỏ hàng
+            document.querySelectorAll('.btn[title="Xóa"]').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    // Tìm đến phần tử cha chứa toàn bộ sản phẩm
+                    var product = btn.closest('.d-flex.align-items-start.border-bottom.py-3');
+                    if (product) product.remove();
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -51,21 +51,21 @@
 
                         <form>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Họ tên*" required>
+                                <input type="text" class="form-control1" placeholder="Họ tên*" required>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Email*" required>
+                                <input type="email" class="form-control1" placeholder="Email*" required>
                             </div>
                             <div class="mb-3">
-                                <input type="tel" class="form-control" placeholder="Số điện thoại*" required>
+                                <input type="tel" class="form-control1" placeholder="Số điện thoại*" required>
                             </div>
                             <div class="mb-3">
-                                <input type="date" class="form-control" placeholder="Ngày đặt hẹn*" required>
+                                <input type="date" class="form-control1" placeholder="Ngày đặt hẹn*" required>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" rows="3" placeholder="Nhập nội dung*" required></textarea>
+                                <textarea class="form-control1" rows="3" placeholder="Nhập nội dung*" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-submit w-100">
+                            <button type="submit" class="btn btn-submit w-90">
                                 Đặt ngay <span class="ms-2">&rarr;</span>
                             </button>
                         </form>
@@ -80,39 +80,201 @@
                 </div>
             </div>
         </div>
-        <div>
-            <h1 class="text-center">Mô tả sản phẩm</h1>
-            <p>Dịch vụ massage cổ vai gáy là một liệu pháp trị liệu nhằm giảm căng thẳng, đau nhức và cải thiện tuần
-                hoàn máu ở khu vực cổ, vai và gáy. Đây là một trong những <br> phương pháp hiệu quả nhất để giải quyết
-                các
-                vấn đề do căng thẳng, làm việc lâu với tư thế không đúng, và các tình trạng mỏi cơ. Dưới đây là mô tả
-                chi tiết về dịch <br> vụ này:
-            </p>
-           <div class="mt-4">
-    <h5 class="fw-bold"> 1. Chuẩn bị trước khi massage cổ vai gáy</h5>
-    <ul class="mt-3">
-        <li> <span class="fw-bold"> Không gian:</span> Phòng massage thường được thiết kế yên tĩnh, ấm cúng
-            với ánh sáng dịu nhẹ và âm nhạc thư giãn.</li>
-        <li> <span class="fw-bold"> Trang thiết bị:</span>Giường hoặc ghế massage, khăn tắm, dầu massage
-            hoặc kem dưỡng.</li>
-        <li> <span class="fw-bold"> Chuyên viên massage:</span> Được đào tạo chuyên nghiệp, có kỹ năng và
-            kiến thức về các kỹ thuật xoa bóp và ấn huyệt. </li>
-    </ul>
-    <div id="more-content" style="display: none;">
-        <div class="mt-3">
-            <h5 class="fw-bold"> 2. Quy trình massage cổ vai gáy</h5>
+    </div>
+    <div>
+        <h1 class="text-center text-itemt ">Mô tả sản phẩm</h1>
+        <p>Dịch vụ massage cổ vai gáy là một liệu pháp trị liệu nhằm giảm căng thẳng, đau nhức và cải thiện tuần
+            hoàn máu ở khu vực cổ, vai và gáy. Đây là một trong những <br> phương pháp hiệu quả nhất để giải quyết
+            các
+            vấn đề do căng thẳng, làm việc lâu với tư thế không đúng, và các tình trạng mỏi cơ. Dưới đây là mô tả
+            chi tiết về dịch <br> vụ này:
+        </p>
+        <div class="mt-4">
+            <h5 class="fw-bold"> 1. Chuẩn bị trước khi massage cổ vai gáy</h5>
             <ul class="mt-3">
-                <li> <span class="fw-bold"> Bước 1:</span> Khách hàng được tư vấn và chuẩn bị tư thế thoải mái.</li>
-                <li> <span class="fw-bold"> Bước 2:</span> Chuyên viên tiến hành các động tác xoa bóp, ấn huyệt chuyên sâu.</li>
-                <li> <span class="fw-bold"> Bước 3:</span> Kết thúc bằng các động tác thư giãn, làm dịu cơ thể.</li>
+                <li> <span class="fw-bold"> Không gian:</span> Phòng massage thường được thiết kế yên tĩnh, ấm cúng
+                    với ánh sáng dịu nhẹ và âm nhạc thư giãn.</li>
+                <li> <span class="fw-bold"> Trang thiết bị:</span>Giường hoặc ghế massage, khăn tắm, dầu massage
+                    hoặc kem dưỡng.</li>
+                <li> <span class="fw-bold"> Chuyên viên massage:</span> Được đào tạo chuyên nghiệp, có kỹ năng và
+                    kiến thức về các kỹ thuật xoa bóp và ấn huyệt. </li>
             </ul>
+            <div id="more-content" style="display: none;">
+                <div class="mt-3">
+                    <h5 class="fw-bold"> 2. Quy trình massage cổ vai gáy</h5>
+                    <ul class="mt-3">
+                        <li> <span class="fw-bold"> Bước 1:</span> Khách hàng được tư vấn và chuẩn bị tư thế thoải
+                            mái.</li>
+                        <li> <span class="fw-bold"> Bước 2:</span> Chuyên viên tiến hành các động tác xoa bóp, ấn
+                            huyệt chuyên sâu.</li>
+                        <li> <span class="fw-bold"> Bước 3:</span> Kết thúc bằng các động tác thư giãn, làm dịu cơ
+                            thể.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-2  mb-3">
+                <button id="btn-xem-them" class="btn " onclick="toggleMoreContent()">Xem thêm</bucdtton>
+            </div>
         </div>
     </div>
-    <div class="text-center mt-2  mb-3">
-        <button id="btn-xem-them" class="btn " onclick="toggleMoreContent()">Xem thêm</button>
+    <div class="text-center text-product">
+        <h1> Sản phẩm thường mua cùng </h1>
     </div>
-</div>
 
+    <div class="row mt-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-product1 ">
+        <h1> Sản phẩm cùng phân khúc </h1>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+    </div >
+        <div class="text-center text-product1 ">
+        <h1> Sản phẩm đã xem  </h1>
+    </div>
+    <div class="row mt-4 mb-5">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="product_massage ">
+                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                <p class="spa-name">META SOFT</p>
+                <div class="price">
+                    <span class="current">2.450.000₫</span>
+                    <span class="discount2">-22%</span>
+                    <span class="old">3.140.000₫</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
