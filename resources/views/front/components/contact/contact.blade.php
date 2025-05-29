@@ -15,7 +15,7 @@
         <div class="mb-2">
             <input type="tel" class="form-control" placeholder="Số điện thoại">
         </div>
-        <div class="mb-2 text-center">
+        <div class="mb-2 text-center contact-note">
             <textarea name=""cols="67" rows="5" id="" placeholder="Ghi chú"></textarea>
         </div>
     </div>

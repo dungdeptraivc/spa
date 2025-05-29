@@ -4,7 +4,7 @@
     </div>
     <div class="row ">
         <div class=" col-sm-4 col-md-4 col-lg-4">
-            <div class="img_service sticky mb-5">
+            <div class="img_service sticky mb-5 text-center">
                 <img class="object-contain aspect-square scale-[var(--image-scale)] gallery-main-img rounded-lg"
                     src="//bizweb.dktcdn.net/thumb/grande/100/510/129/products/frame-46-1.jpg?v=1716938125050"
                     alt="Dịch vụ massage toàn thân" fetchpriority="high">
