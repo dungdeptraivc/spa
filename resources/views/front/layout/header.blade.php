@@ -13,16 +13,22 @@
                             <a class="nav-link" href="/" id="home-link">Trang chủ</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="/" id="home-link">Giới thiệu</a>
+                            <a class="nav-link" href="{{ route('introduce') }}" id="home-link">Giới thiệu</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="/shop" id="shop-link">Gói dịch vụ</a>
+                            <a class="nav-link" href="{{ route('service') }}" id="shop-link"> Dịch vụ</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="/event" id="event-link">Blog</a>
+                            <a class="nav-link" href="{{ route('blog') }}" id="event-link">Blog</a>
+                        </li>
+                          <li class="nav-item mx-1">
+                            <a class="nav-link" href="{{ route('detail-product') }}" id="event-link">Sản phẩm </a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="/contact" id="contact-link">Contact</a>
+                            <a class="nav-link" href="{{ route('contact')  }}" id="contact-link">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="{{ route('login')  }}" id="contact-link">Login</a>
                         </li>
                     </ul>
                     <a class="cart-icon text-black" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button"
@@ -103,7 +109,7 @@
                 </div>
                 <div class="cart-footer">
                     <div class="total">TỔNG CỘNG :<strong>755.000₫</strong></div>
-                    <a href="" class="checkout-btn">THANH TOÁN </a>
+                    <a href="{{ route('pay') }}" class="checkout-btn">THANH TOÁN </a>
                 </div>
             </div>
         </div>

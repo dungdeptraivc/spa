@@ -2,7 +2,7 @@ body {
   font-family: "Merienda", cursive;
   margin: 0;
   padding: 0;
-  background: #FCFCF7;
+  background: #fbfbf0;
 }
 
 .icon {
@@ -46,9 +46,9 @@ body {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
-  /* Nền đen mờ */
+
   z-index: 1040;
-  /* nhỏ hơn offcanvas (1045) */
+
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
@@ -78,26 +78,21 @@ body {
 
 header {
   position: fixed;
-  /* Ghim header ở trên cùng */
   top: 0;
   left: 0;
   width: 100%;
   padding: 15px 20px;
-  background-color: white;
-  transition: 0.3s ease-in-out, padding 0.3s ease-in-out;
+  background-color: transparent;
+  /* Mặc định trong suốt */
+  transition: background-color 0.3s, box-shadow 0.3s, padding 0.3s;
   z-index: 1000;
-  /* Giữ header trên cùng */
-  color: #ffff;
 }
 
 
 header.scrolled {
-  background: #000;
-  /* Đổi màu nền khi cuộn xuống */
-  padding: 10px 20px;
-  /* Giảm padding để làm header nhỏ hơn */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  /* Tạo hiệu ứng đổ bóng */
+  background-color: #fff !important;
+  /* Khi cuộn thì nền trắng */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 }
 
 .nav-link {
@@ -163,7 +158,6 @@ header.scrolled {
 }
 
 .main1 {
-
   background: url('../image/anhbg.jpg');
   background-size: cover;
   background-position: center;
@@ -173,14 +167,19 @@ header.scrolled {
 }
 
 .content h1 {
-  padding-top: 200px;
+  padding-top: 20vh;
   font-family: "Merienda", cursive;
   font-weight: 800;
   color: #533B4D;
   text-shadow: 4px 4px 2px rgba(255, 253, 253, 0.774);
   font-size: 40px;
 }
-
+@media (max-width: 767.98px) {
+  .content h1 {
+    padding-top: 70px;
+    font-size: 24px;
+  }
+}
 .content h3 {
   font-weight: 500;
   color: #ac9d8e;
@@ -228,11 +227,13 @@ content h2 {
 }
 
 .main2 {
-  background-color: #FCFCF7;
+  background-color: #fbfbf0;
+  ;
 }
 
 .main3 {
-  background-color: #FCFCF7;
+  background-color: #fbfbf0;
+  ;
 }
 
 .loyal h1 {
@@ -282,14 +283,6 @@ content h2 {
   font-size: 12px;
 }
 
-/* .discount {
-  background-color: #ff5722;
-  color: white;
-  border-radius: 10px;
-  padding: 2px 6px;
-  font-size: 12px;
-} */
-
 .discount1 {
   background-color: white;
   width: 100%;
@@ -321,11 +314,16 @@ content h2 {
   height: 100%;
 }
 
+.item_1:hover {
+  background-color: rgb(250, 145, 16);
+}
+
 .item_1 {
   padding: 10px;
   border: 2px solid rgb(250, 145, 16);
   border-radius: 40px;
   width: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
 }
 
 .item_2 {
@@ -334,6 +332,7 @@ content h2 {
   border-radius: 50px;
   width: 70px;
   margin-left: 8px;
+
 }
 
 .img_2 img {
@@ -449,12 +448,18 @@ content h2 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.item_5:hover {
+  background-color: rgb(250, 145, 16);
+}
+
 .item_5 {
+
+
   padding: 10px;
   border: 2px solid rgb(250, 145, 16);
-
   border-radius: 40px;
-  width: 85%;
+  width: 8offcanvas 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
 }
 
 .item_6 {
@@ -889,7 +894,7 @@ body {
 }
 
 .blog-background {
-  background-color: #FCFCF7;
+  background-color: #fbfbf0;
   margin-top: 90px;
 }
 
@@ -971,7 +976,7 @@ body {
 
 
 .contact-background {
-  background-color: #FCFCF7;
+  background-color: #fbfbf0;
   margin-top: 100px;
 }
 
@@ -1134,26 +1139,30 @@ body {
 
 
 .btn-light.text-danger {
-    transition: background 0.2s, color 0.2s;
-}
-.btn-light.text-danger:hover {
-    background: #f7d6d6;
-    color: #dc3545;
-}
-.input-group-sm .btn {
-    min-width: 32px;
-    font-size: 1.1rem;
-    padding: 0.25rem 0.5rem;
-}
-.input-group-sm .form-control2 {
-    font-size: 1rem;
-    padding: 0.25rem 0.5rem;
-    height: 36px;
+  transition: background 0.2s, color 0.2s;
 }
 
-.form-control2{
+.btn-light.text-danger:hover {
+  background: #f7d6d6;
+  color: #dc3545;
+}
+
+.input-group-sm .btn {
+  min-width: 32px;
+  font-size: 1.1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.input-group-sm .form-control2 {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  height: 36px;
+}
+
+.form-control2 {
   border: none;
 }
+
 .total {
   margin-bottom: 10px;
   font-size: 16px;
@@ -1168,8 +1177,9 @@ body {
   font-size: 16px;
   cursor: pointer;
   width: 100%;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 .cart-footer {
   margin-top: 20px;
   border-top: 1px solid #eee;
@@ -1179,14 +1189,92 @@ body {
 
 /* login */
 
-.login{
+.login {
+  color: #533B4D;
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   margin-top: 60px;
 }
-.bg_login{
-  background-color: white;
+
+.bg_login {
   border-radius: 10px;
 
+}
+
+/* all product */
+
+.text_pro img {
+  height: 50vh;
+
+  border-radius: 20px;
+}
+
+.text_detail h1 {
+  color: white;
+}
+
+.text_detail {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.detail-text h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #533B4D;
+  font-size: 50px;
+}
+
+.dropdown-menu {
+  background: white;
+
+}
+
+.dropdown {
+  border: black;
+  border-radius: 20px;
+  background-color: #fffef0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* pay */
+.section-box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-select {
+  font-size: 14px;
+}
+
+.pay-form-control {
+  font-size: 14px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pay-form-controlvn {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.nutbam{
+  width: 50%;
+  border-radius: 5px
+}
+
+@media screen and (max-width: 768px) {
+ .nutbam{
+  width: 100%;
+  border-radius: 5px
+}
   
 }

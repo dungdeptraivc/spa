@@ -5,7 +5,7 @@
     <div class=" bg_login mb-5">
         <div class="text-center">
             <h1 class="login text-center"> Đăng ký tài khoản </h1>
-            <p>Bạn đã có tài khoản Đăng nhập <a href="" class="text-decoration-none"> tại đây</a></p>
+            <p>Bạn đã có tài khoản <a href="{{ route('login') }}" class="text-decoration-none"> Đăng nhập tại đây</a></p>
             <input type="email" class="form-control1 w-50 " placeholder="Họ" required="">
             <input type="text" class="form-control1 mt-3 w-50" placeholder="Tên" required="">
             <input type="email" class="form-control1 w-50 mt-3 " placeholder="Email" required="">

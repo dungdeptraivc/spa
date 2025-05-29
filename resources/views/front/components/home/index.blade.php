@@ -1,5 +1,5 @@
 <div class="main1 ">
-    {{-- content1 --}}
+
     <div class="container">
         <div class="content ">
             <h1> LAN TỎA VẺ MỚI VỚI <br>LÀN DA MỚI CÙNG EGA </h1>
@@ -20,12 +20,15 @@
 <div class="main2 py-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 text-center mt-2 mb-2 ">
-                <div class="product">
-                    <img src="/assets/image/anh2.png" alt ="" class="">
+            <div class="col-lg-4 col-sm-6 text-center mt-2 mb-2 ">
+                <div class=" w-100 h-100 d-flex justify-content-center align-items-center mx-auto">
+                    <div class="img">
+                        <img src="/assets/image/anh2.png" alt =""
+                            class="d-flex justify-content-center align-items-center mx-auto w-100">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-8 mt-5 content2">
+            <div class="col-lg-8 col-sm-6 mt-5 content2">
                 <h1> KẾT TINH TỪ NGHỆ THUẬT</h1>
                 <div class="mt-4">
                     <p>Sự kết hợp giữa các tuyệt tác sinh ra từ di sản, công nghệ khoa học da liễu độc quyền, liệu
@@ -106,17 +109,17 @@
             <div class="block_exp1">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-4 text-center">
-                        <div class="item-exp">
+                        <div class="item-exp mt-3 ">
                             <h1> 10<br> Cửa hàng </h1>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4 text-center">
-                        <div class="item-exp">
+                        <div class="item-exp mt-3">
                             <h1> 17 <br> Kinh nghiệm </h1>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4  text-center">
-                        <div class="item-exp">
+                        <div class="item-exp mt-3">
                             <h1> 12 <br> Gói dịch vụ </h1>
                         </div>
 
@@ -125,10 +128,10 @@
             </div>
         </div>
         {{-- content4 --}}
-        <div class="row">
+        <div class="row mt-3">
 
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0 border">
+            <div class="col-sm-1212 col-md-12 col-lg-4">
+                <div class="row g-0 border mt-5">
                     <div class="col-sm-12 col-md-12 col-lg-2">
                         <div class="discount mx-auto w-100 h-100">
                             <div class="text-center w-100 h-100 d-flex align-items-center">
@@ -145,8 +148,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0 border">
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
+                <div class="row g-0 border mt-5">
                     <div class="col-sm-12 col-md-12 col-lg-2">
                         <div class="bg-primary mx-auto w-100 h-100">
                             <div class="text-center w-100 h-100 d-flex align-items-center ">
@@ -163,10 +166,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-5">
-                <div class="row g-0 border">
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
+                <div class="row g-0 border mt-5">
                     <div class="col-sm-12 col-md-12 col-lg-2">
-                        <div class="bg-warning mx-auto w-100 h-100" >
+                        <div class="bg-warning mx-auto w-100 h-100">
                             <div class="text-center w-100 h-100 d-flex align-items-center">
                                 <p> Giảm 50%</p>
                             </div>
@@ -197,91 +200,110 @@
                                 tăng cường
                                 độ đàn hồi. </h5>
                         </div>
-                        <div class="mt-5 d-flex item_1  ">
-                            <div class="mt-2 mx-4 d-flex align-items-center">
-                                <h6>Xem tất cả </h6>
+                        {{-- <a href="{{ route('detail-product') }}" class="text-decoration-none text-dark"> --}}
+                        <a href="/detail-product" class="text-decoration-none text-dark">
+                            <div class="nutbam">
+                                <div class="mt-5 w-100 d-flex item_5">
+                                    <div class="mt-2 mx-1">
+                                        <h5>Xem tất cả </h5>
+                                    </div>
+                                    <div class="text-center item_6">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="text-center item_2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                    fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-                                </svg>
-                            </div>
-                        </div>
+
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row mt-5">
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="img_2">
-                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
-                            <div class="mt-3 ">
-                                <h4> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                        <a class="text-decoration-none" href="{{ route('detail') }}">
+                            <div class="img_2 text-dark">
+                                <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                                <div class="mt-3 ">
+                                    <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                                </div>
+                                <div class="item_3">
+                                    <h4> 999.999đ</h4>
+                                </div>
                             </div>
-                            <div class="item_3">
-                                <h4> 999.999đ</h4>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 img_2">
-                        <div>
-                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
-                            <div class="mt-3">
-                                <h4> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a class="text-decoration-none" href="{{ route('detail') }}">
+                            <div class="img_2 text-dark">
+                                <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                                <div class="mt-3 ">
+                                    <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                                </div>
+                                <div class="item_3">
+                                    <h4> 999.999đ</h4>
+                                </div>
                             </div>
-                            <div class="item_3">
-                                <h4> 999.999đ</h4>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-3">
-                    <div class="img_2">
-                        <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h4> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                    <a class="text-decoration-none" href="{{ route('detail') }}">
+                        <div class="img_2 text-dark">
+                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                            <div class="mt-3 ">
+                                <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                            </div>
+                            <div class="item_3">
+                                <h4> 999.999đ</h4>
+                            </div>
                         </div>
-                        <div class="item_3">
-                            <h4> 999.999đ</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 img_2">
-                    <div>
-                        <img src="/assets/image/anh6.jpg" alt ="" class="w-100">
-                        <div class="mt-3">
-                            <h4> [ Combo dầu gội và dầu xã ] META SOFT </h4>
-                        </div>
-                        <div class="item_3">
-                            <h4> 1.000.000đ</h4>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-3">
-                    <div class="img_2">
-                        <img src="/assets/image/anh7.jpeg" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h4>[ Xịt-Xã-Dưỡng cho nam ] META SOFT</h4>
+                    <a class="text-decoration-none" href="{{ route('detail') }}">
+                        <div class="img_2 text-dark">
+                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                            <div class="mt-3 ">
+                                <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                            </div>
+                            <div class="item_3">
+                                <h4> 999.999đ</h4>
+                            </div>
                         </div>
-                        <div class="item_3">
-                            <h4> 2.000.000000đ</h4>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 img_2">
-                    <div>
-                        <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
-                        <div class="mt-3">
-                            <h4> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <a class="text-decoration-none" href="{{ route('detail') }}">
+                        <div class="img_2 text-dark">
+                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                            <div class="mt-3 ">
+                                <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                            </div>
+                            <div class="item_3">
+                                <h4> 999.999đ</h4>
+                            </div>
                         </div>
-                        <div class="item_3">
-                            <h4> 999.999đ</h4>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <a class="text-decoration-none" href="{{ route('detail') }}">
+                        <div class="img_2 text-dark">
+                            <img src="/assets/image/anh5.jpeg" alt ="" class="w-100">
+                            <div class="mt-3 ">
+                                <h4 class=""> Dầu gội thảo mộc tự nhiên META SOFT</h4>
+                            </div>
+                            <div class="item_3">
+                                <h4> 999.999đ</h4>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -296,8 +318,6 @@
                             sức khẻo tối
                             ưu </p>
                     </div>
-
-
                 </div>
                 <div class="swiper-slide"><img src="/assets/image/anh9.jpg" alt ="" class="">
                     <div class="text_3">
@@ -306,7 +326,6 @@
                             tĩnh và êm dịu </p>
                     </div>
                 </div>
-
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -322,21 +341,21 @@
                 <div class=" col-sm-12 col-md-12 col-lg-3 ">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-4">
-                            <div class="time_2">
+                            <div class="time_2 mt-2 ">
                                 <div><span class="hours_days" id="hours">00</span>
                                     <div class="hours_days fs-6">Giờ</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
-                            <div class="time_2">
+                            <div class="time_2 mt-2">
                                 <div><span class="hours_days" id="minutes">00</span>
                                     <div class=" hours_days fs-6">Phút</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
-                            <div class="time_2">
+                            <div class="time_2 mt-2">
                                 <div><span class="hours_days" id="seconds">00</span>
                                     <div class="hours_days fs-6">Giây</div>
                                 </div>
@@ -354,7 +373,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-9">
                 <div class="product_2 ">
@@ -362,118 +380,138 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3 mt-5 item_4 ">
-                <div class="mt-5 d-flex item_5 ">
-                    <div class="mt-2 mx-1">
-                        <h5>Xem tất cả </h5>
+                <a href="{{ route('detail-product') }}" class="text-decoration-none text-dark">
+                    <div class="mt-5 d-flex item_5 ">
+                        <div class="mt-2 mx-1">
+                            <h5>Xem tất cả </h5>
+                        </div>
+                        <div class="text-center item_6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg>
+                        </div>
                     </div>
-                    <div class="text-center item_6">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-                        </svg>
-                    </div>
-                </div>
+                </a>
             </div>
+        </div>
+        <div class="row mt-5  ">
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh13.png" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
         </div>
 
         <div class="row mt-5  ">
             <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                    </div>
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
 
-                </div>
+                    </div>
+                </a>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                    </div>
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
 
-                </div>
+                    </div>
+                </a>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                    </div>
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
 
-                </div>
+                    </div>
+                </a>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh13.png" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                    </div>
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh13.png" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
 
-                </div>
+                    </div>
+                </a>
             </div>
 
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-sm-12 col-md-12 col-lg-3 ">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3 img_2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
-                    <div class="mt-3">
-                        <h5> [ Combo dầu gội và dầu xã ] META SOFT </h5>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
-                    <div class="mt-3 ">
-                        <h5> Tinh dầu thơm 100% triết suất tự nhiên META SOFT</h5>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3 img_2">
-                <div class="img_2 bg_1">
-                    <img src="/assets/image/anh13.png" alt ="" class="w-100">
-                    <div class="mt-3">
-                        <h5> Tinh dầu thảo mộc thơm phòng META SOFT </h5>
-                    </div>
-
-                </div>
-            </div>
         </div>
         <div class="bg_2 mt-5">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6  mt-5 mb-5 text-center img_4">
-                    <img src="/assets/image/anh7.jpeg" alt ="" class="">
+                    <img src="/assets/image/anh7.jpeg" alt ="" class="w-100 p-2">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
-                    <h1 class="font_2"> Dầu gội đầu cho nam META SOFT</h1>
-                    <div class="item_exp">
-                        <h1> 299.000đ</h1>
+                    <div class="p-2">
+                        <h1 class="font_2 "> Dầu gội đầu cho nam META SOFT</h1>
+                        <div class="item_exp ">
+                            <h1> 299.000đ</h1>
+                        </div>
+                        <div class="mb-3 mt-3 font_1">
+                            <h1> Loại </h1>
+                        </div>
                     </div>
-                    <div class="mb-3 mt-3 font_1">
-                        <h1> Loại </h1>
-                    </div>
-                    <div class="button-group text-center">
+                    {{-- <div class="button-group text-center">
                         <button class="btn "> Hương nước hoa </button>
                         <button class="btn"> Hương bạc hà</button>
                         <button class="btn"> Hương gỗ </button>
                         <button class="btn"> Sạch gàu </button>
-                    </div>
+                    </div> --}}
                     <div class="item_exp2 mt-4 ">
                         <div class="bg_3 ">
 
@@ -514,27 +552,25 @@
                         <div class="text-center">
                             <p> Hãy nhanh tay </p>
                             <h5> Sự kiện sẽ kết thúc sau </h5>
-
                         </div>
-
                         <div class="mt-2 mb-4 mx-4">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <div class="time_3">
+                                    <div class="time_3 mt-3">
                                         <div><span class="hours_days" id="hours">00</span>
                                             <div class="hours_days fs-6">Giờ</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <div class="time_3">
+                                    <div class="time_3 mt-3">
                                         <div><span class="hours_days" id="minutes">00</span>
                                             <div class=" hours_days fs-6">Phút</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-4">
-                                    <div class="time_3">
+                                    <div class="time_3 mt-3">
                                         <div><span class="hours_days" id="seconds">00</span>
                                             <div class="hours_days fs-6">Giây</div>
                                         </div>
@@ -649,11 +685,10 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="">
-                    <img src="/assets/image/anhserum.png" alt="">
+                    <img src="/assets/image/anhserum.png" alt="" class="w-100">
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-8">
-                <!-- filepath: c:\beauty\spa\resources\views\front\components\home\index.blade.php -->
                 <div class="faq-container">
                     <h1>Câu hỏi thường gặp</h1>
 
@@ -782,50 +817,56 @@
                 </div>
                 <div class="row mt-5 pb-4 ">
                     <div class="col-sm-12 col-md-12 col-lg-4  p-2">
-                        <div class="img_2 bg_1">
-                            <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100  ">
-                            <div class="mt-3 ">
-                                <h6 class="fw-bold"> Hướng dẫn skincare tại nhà đơn giản</h6>
-                                <p>Các bước skincare đúng cách giúp bạn sở hữu ngay làn da không tuổi, mịn màng và
-                                    luôn
-                                    tươi trẻ. Sau đây là cách nhận...</p>
-                                <div class="d-flex justify-content-end  ">
-                                    <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                        <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                            <div class="img_2 bg_1">
+                                <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100  ">
+                                <div class="mt-3 ">
+                                    <h6 class="fw-bold"> Hướng dẫn skincare tại nhà đơn giản</h6>
+                                    <p>Các bước skincare đúng cách giúp bạn sở hữu ngay làn da không tuổi, mịn màng và
+                                        luôn
+                                        tươi trẻ. Sau đây là cách nhận...</p>
+                                    <div class="d-flex justify-content-end  ">
+                                        <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                                    </div>
                                 </div>
-                            </div>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4  p-2">
-                        <div class="img_2 bg_1">
-                            <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100 ">
-                            <div class="mt-3 ">
-                                <h6 class="fw-bold"> Massage đúng cách để giúp trẻ hóa làn da </h6>
-                                <p>Bạn lo lắng về tình trạng lão hóa da do các nguyên nhân về tuổi tác cũng như khói
-                                    bụi
-                                    ô nhiễm, và đang tìm phương pháp ngăn ngừa ...</p>
-                                <div class="d-flex justify-content-end  ">
-                                    <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                        <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                            <div class="img_2 bg_1">
+                                <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100 ">
+                                <div class="mt-3 ">
+                                    <h6 class="fw-bold"> Massage đúng cách để giúp trẻ hóa làn da </h6>
+                                    <p>Bạn lo lắng về tình trạng lão hóa da do các nguyên nhân về tuổi tác cũng như khói
+                                        bụi
+                                        ô nhiễm, và đang tìm phương pháp ngăn ngừa ...</p>
+                                    <div class="d-flex justify-content-end  ">
+                                        <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                                    </div>
+
                                 </div>
 
                             </div>
-
-                        </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4  p-2">
-                        <div class="img_2 bg_1">
-                            <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100">
-                            <div class="mt-3 ">
-                                <h6 class="fw-bold"> Bí quyết tẩy tế bào chết dịu nhẹ hiệu quả </h6>
-                                <p>Tẩy tế bào chết là bước làm sạch quan trọng trong chu trình dưỡng da. Bước này
-                                    loại
-                                    bỏ đi “lớp sừng” – tác nhân...</p>
-                                <div class="d-flex justify-content-end  ">
-                                    <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                        <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                            <div class="img_2 bg_1">
+                                <img src="/assets/image/anhmassa.jpeg" alt ="" class="w-100">
+                                <div class="mt-3 ">
+                                    <h6 class="fw-bold"> Bí quyết tẩy tế bào chết dịu nhẹ hiệu quả </h6>
+                                    <p>Tẩy tế bào chết là bước làm sạch quan trọng trong chu trình dưỡng da. Bước này
+                                        loại
+                                        bỏ đi “lớp sừng” – tác nhân...</p>
+                                    <div class="d-flex justify-content-end  ">
+                                        <i class="bi bi-arrow-right-circle fs-3 mx-3 "></i>
+                                    </div>
                                 </div>
-                            </div>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

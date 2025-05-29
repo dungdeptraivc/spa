@@ -123,158 +123,121 @@
 
     <div class="row mt-4">
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="text-center text-product1 ">
         <h1> Sản phẩm cùng phân khúc </h1>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4 mb-4">
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
+            <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                <div class="product_massage ">
+                    <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
+                    <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
+                    <p class="spa-name">META SOFT</p>
+                    <div class="price">
+                        <span class="current">2.450.000₫</span>
+                        <span class="discount2">-22%</span>
+                        <span class="old">3.140.000₫</span>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div >
-        <div class="text-center text-product1 ">
-        <h1> Sản phẩm đã xem  </h1>
-    </div>
-    <div class="row mt-4 mb-5">
-        <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3">
-            <div class="product_massage ">
-                <img src="/assets/image/anhmassa.jpeg" alt="" class="w-100 object-fit-cover rounded">
-                <button class="my-button mt-2">Điều trị mụn chuyên sâu</button>
-                <p class="spa-name">META SOFT</p>
-                <div class="price">
-                    <span class="current">2.450.000₫</span>
-                    <span class="discount2">-22%</span>
-                    <span class="old">3.140.000₫</span>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>
