@@ -1,5 +1,4 @@
 <div class="main1 ">
-
     <div class="container">
         <div class="content ">
             <h1> LAN TỎA VẺ MỚI VỚI <br>LÀN DA MỚI CÙNG EGA </h1>
@@ -16,8 +15,7 @@
         </div>
     </div>
 </div>
-
-<div class="main2 py-5">
+<div class="main2 mt-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-sm-6 text-center mt-2 mb-2 ">
@@ -42,9 +40,11 @@
     </div>
 </div>
 
+
 {{-- content3 --}}
 
-<div class="main3 ">
+
+<div class="main3 mt-3">
     <div class="container p-5">
         <div class="chung_nhan py-3">
             <div class="row">
@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-3  ">
-                    <div class="text-center">
+                    <div class="text-center mt-4">
                         <img class="" loading="lazy"
                             src="//bizweb.dktcdn.net/100/510/129/themes/952186/assets/policies_icon_1.png?1723611130961"
                             alt="Chứng nhận ISO">
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-3 ">
-                    <div class=" text-center">
+                    <div class=" text-center  mt-4">
                         <img class="" loading="lazy"
                             src="//bizweb.dktcdn.net/100/510/129/themes/952186/assets/policies_icon_1.png?1723611130961"
                             alt="Chứng nhận ISO">
@@ -72,17 +72,16 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-3  ">
-                    <div class="text-center">
+                    <div class="text-center  mt-4">
                         <img class="" loading="lazy"
                             src="//bizweb.dktcdn.net/100/510/129/themes/952186/assets/policies_icon_1.png?1723611130961"
                             alt="Chứng nhận ISO">
                         <h5 class="mt-3"> Hỗ trợ 24/7 </h5>
                     </div>
-
                 </div>
             </div>
         </div>
-        <div class="row ">
+        <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 ">
                 <div class="introduce   ">
                     <div class="introduce1 ">
@@ -104,8 +103,8 @@
                 <img src="/assets/image/anh4.png" alt ="" class="w-100 text-center ">
             </div>
         </div>
-        <div class="exp">
 
+        <div class="exp">
             <div class="block_exp1">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-4 text-center">
@@ -127,7 +126,11 @@
                 </div>
             </div>
         </div>
+
+
         {{-- content4 --}}
+
+
         <div class="row mt-3">
 
             <div class="col-sm-1212 col-md-12 col-lg-4">
@@ -175,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-10">
+                    <div class="col-sm-12 col-md-12 col-lg-10 ">
                         <div class="discount1">
                             <h5> Mã: EGA50THANG10</h5>
                             <p> Giảm 15% cho đơn hàng giá trị tối hiểu 500k.<br> Mã giảm tối đa 250k </p>
@@ -184,14 +187,16 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+
         {{-- content5 --}}
-        <div class="row">
+
+
+        <div class="row mt-4">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="product_1 mt-5">
-                    <div class="all_product">
+                <div class=" index-content5">
+                    <div class="all_product mt-5">
                         <h1> Tất Cả Sản Phẩm </h1>
                     </div>
                     <div class="mt-4">
@@ -374,24 +379,74 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="product_2 ">
                     <h1> Danh mục sản phẩm </h1>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-3 mt-5 item_4 ">
-                <a href="{{ route('detail-product') }}" class="text-decoration-none text-dark">
-                    <div class="mt-5 d-flex item_5 ">
-                        <div class="mt-2 mx-1">
-                            <h5>Xem tất cả </h5>
+            <div class="col-sm-12 col-md-12 col-lg-4 mt-5  ">
+                <a href="/detail-product" class="text-decoration-none text-dark">
+                    <div class="button2">
+                        <div class="mt-1 d-flex item_5">
+                            <div class="mt-2 w-100 mx-1">
+                                <h5>Xem tất cả </h5>
+                            </div>
+                            <div class="text-center item_6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
-                        <div class="text-center item_6">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-                            </svg>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5  ">
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
                         </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
+                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
+                    <div class="img_2 bg_1">
+                        <img src="/assets/image/anh13.png" alt ="" class="w-100">
+                        <div class="mt-3 ">
+                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
+                        </div>
+
                     </div>
                 </a>
             </div>
@@ -441,57 +496,8 @@
                     </div>
                 </a>
             </div>
-
         </div>
-
-        <div class="row mt-5  ">
-            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
-                    <div class="img_2 bg_1">
-                        <img src="/assets/image/anh11.jpeg" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
-                    <div class="img_2 bg_1">
-                        <img src="/assets/image/anh11.jpg" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
-                    <div class="img_2 bg_1">
-                        <img src="/assets/image/anh14.jpg" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-3  p-2">
-                <a class="text-decoration-none text-dark" href="{{ route('detail') }}">
-                    <div class="img_2 bg_1">
-                        <img src="/assets/image/anh13.png" alt ="" class="w-100">
-                        <div class="mt-3 ">
-                            <h5> Tinh dầu bưởi mọc tóc META SOFT</h5>
-                        </div>
-
-                    </div>
-                </a>
-            </div>
-
-        </div>
-        <div class="bg_2 mt-5">
+        <div class="bg_2 ">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6  mt-5 mb-5 text-center img_4">
                     <img src="/assets/image/anh7.jpeg" alt ="" class="w-100 p-2">
@@ -506,12 +512,6 @@
                             <h1> Loại </h1>
                         </div>
                     </div>
-                    {{-- <div class="button-group text-center">
-                        <button class="btn "> Hương nước hoa </button>
-                        <button class="btn"> Hương bạc hà</button>
-                        <button class="btn"> Hương gỗ </button>
-                        <button class="btn"> Sạch gàu </button>
-                    </div> --}}
                     <div class="item_exp2 mt-4 ">
                         <div class="bg_3 ">
 
@@ -581,11 +581,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
-    <div class="all_item mt-4">
+    <div class="all_item">
         <div class="bg_4">
             <div class="banner-container">
                 <h1>
@@ -604,7 +602,6 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <div class="swiper mySwiper2 ">
             <div class="swiper-wrapper">
@@ -681,7 +678,7 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
-    <div class="block container">
+    <div class="block container py-5">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="">
@@ -691,7 +688,6 @@
             <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="faq-container">
                     <h1>Câu hỏi thường gặp</h1>
-
                     <div class="faq-item">
                         <button class="faq-question d-flex align-items-center justify-content-between w-100"
                             onclick="toggleFaq(this)">
@@ -811,7 +807,7 @@
                 </div>
             </div>
             {{-- tin tức --}}
-            <div class=" block_2">
+            <div class=" block_2 pt-5">
                 <div class="text-center text_5">
                     <h1> TIN TỨC</h1>
                 </div>
@@ -872,3 +868,4 @@
             </div>
         </div>
     </div>
+</div>

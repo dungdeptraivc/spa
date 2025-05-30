@@ -6,8 +6,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse nav-header" id="navbarNav">
-                    <img src="//bizweb.dktcdn.net/100/510/129/themes/952186/assets/logo.png?1723611130961"
-                        alt="logo EGA Beauty Spa" width="194" height="56">
+                    <a href="/">
+                        <img src="//bizweb.dktcdn.net/100/510/129/themes/952186/assets/logo.png?1723611130961"
+                            alt="logo EGA Beauty Spa" width="194" height="56">
+                    </a>
                     <ul class="navbar-nav mx-auto align-items-center">
                         <li class="nav-item mx-2">
                             <a class="nav-link" href="/" id="home-link">Trang chủ</a>
@@ -21,14 +23,14 @@
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="{{ route('blog') }}" id="event-link">Blog</a>
                         </li>
-                          <li class="nav-item mx-1">
+                        <li class="nav-item mx-1">
                             <a class="nav-link" href="{{ route('detail-product') }}" id="event-link">Sản phẩm </a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="{{ route('contact')  }}" id="contact-link">Contact</a>
+                            <a class="nav-link" href="{{ route('contact') }}" id="contact-link">Contact</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="{{ route('login')  }}" id="contact-link">Login</a>
+                            <a class="nav-link" href="{{ route('login') }}" id="contact-link">Login</a>
                         </li>
                     </ul>
                     <a class="cart-icon text-black" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button"
